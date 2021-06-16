@@ -2,4 +2,10 @@
 <h2>Restaurant name : <%= @restaurant.name %></h2>
 <p>Phone number : <%= @restaurant.phone_number %></p>
 <p>Category :  <%= @restaurant.category %></p>
+
+
+<%= link_to 'Edit', edit_restaurant_path(@restaurant) %> |
+<%= link_to 'Back', restaurants_path %> |
+<%= link_to 'Leave a review', new_restaurant_review_path(@restaurant) %>
+
 </div>
