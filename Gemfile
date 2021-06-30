@@ -6,8 +6,7 @@ ruby '2.6.6'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.3'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 1.4'
-# Use Puma as the app server
+gem 'sqlite3', '~> 1.4', '>= 1.4.2'# Use Puma as the app server
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
@@ -50,3 +49,6 @@ gem 'font-awesome-sass', '~> 5.6.1'
 gem 'simple_form'
 gem 'websocket-driver', '~> 0.7.5'
 gem 'execjs', '~> 2.8', '>= 2.8.1'
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
+
